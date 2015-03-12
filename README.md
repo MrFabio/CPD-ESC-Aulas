@@ -1,2 +1,2 @@
-# CPD-ESC-Aulas
-Computer Systems Engineering
+#Computer Systems Engineering
+@Parallel and Distributed Computing
