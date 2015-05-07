@@ -1,114 +1,115 @@
-### compute-662-1(stat: 0, dur(s): 1.62):
+### compute-662-5(stat: 0, dur(s): 1.82):
 ID_MODEL=INTEL_SSDSC2BW120A4
 
-### compute-641-3(stat: 0, dur(s): 1.65):
+### compute-641-19(stat: 0, dur(s): 1.86):
 ID_MODEL=INTEL_SSDSC2BW240A4
 
-### compute-641-5(stat: 0, dur(s): 1.75):
+### compute-641-8(stat: 0, dur(s): 1.92):
 ID_MODEL=INTEL_SSDSC2BW240A3F
 
-### compute-652-1(stat: 0, dur(s): 1.79):
-ID_MODEL=WDC_WD20NPVT-00Z2TT0
-
-### compute-662-4(stat: 0, dur(s): 1.86):
-ID_MODEL=INTEL_SSDSC2BW120A4
-
-### compute-662-6(stat: 0, dur(s): 1.86):
-ID_MODEL=INTEL_SSDSC2BW120A4
-
-### compute-431-6(stat: 0, dur(s): 1.91):
-ID_MODEL=SAMSUNG_HD502HJ
-
-### compute-662-3(stat: 0, dur(s): 1.93):
-ID_MODEL=INTEL_SSDSC2BW120A4
-
-### compute-641-7(stat: 0, dur(s): 1.99):
-ID_MODEL=INTEL_SSDSC2BW240A3F
-
-### compute-432-1(stat: -1, dur(s): 2.0):
-down
-### compute-432-2(stat: 0, dur(s): 2.12):
+### compute-432-1(stat: 0, dur(s): 1.92):
 ID_MODEL=MM0500EBKAE
 
-### compute-641-4(stat: 0, dur(s): 2.19):
-ID_MODEL=INTEL_SSDSC2BW240A4
-
-### compute-641-14(stat: 0, dur(s): 2.21):
+### compute-641-14(stat: 0, dur(s): 1.92):
 ID_MODEL=INTEL_SSDSC2BW240A3F
 
-### compute-641-13(stat: 0, dur(s): 2.25):
+### compute-431-6(stat: 0, dur(s): 1.98):
+ID_MODEL=SAMSUNG_HD502HJ
+
+### compute-641-6(stat: 0, dur(s): 1.98):
 ID_MODEL=INTEL_SSDSC2BW240A3F
 
-### compute-641-1(stat: 0, dur(s): 2.33):
+### compute-641-20(stat: 0, dur(s): 2.04):
 ID_MODEL=INTEL_SSDSC2BW240A4
 
-### compute-641-9(stat: 0, dur(s): 2.36):
-ID_MODEL=INTEL_SSDSC2BW240A4
-
-### compute-662-5(stat: 0, dur(s): 2.37):
-ID_MODEL=INTEL_SSDSC2BW120A4
-
-### compute-641-18(stat: 0, dur(s): 2.38):
-ID_MODEL=INTEL_SSDSC2BW240A4
-
-### compute-641-20(stat: 0, dur(s): 2.4):
-ID_MODEL=INTEL_SSDSC2BW240A4
-
-### compute-641-10(stat: 0, dur(s): 2.45):
-ID_MODEL=INTEL_SSDSC2BW240A4
-
-### compute-641-2(stat: 0, dur(s): 2.45):
-ID_MODEL=INTEL_SSDSC2BW240A4
-
-### compute-431-5(stat: 0, dur(s): 2.5):
-ID_MODEL=SAMSUNG_HD502HI
-
-### compute-101-50(stat: 0, dur(s): 2.54):
-ID_MODEL=ST3120827AS
-
-### compute-662-2(stat: 0, dur(s): 2.6):
-ID_MODEL=INTEL_SSDSC2BW120A4
-
-### compute-641-15(stat: 0, dur(s): 2.61):
-ID_MODEL=INTEL_SSDSC2BW240A3F
-
-### compute-641-12(stat: 0, dur(s): 2.6):
-ID_MODEL=INTEL_SSDSC2BW240A4
-
-### compute-541-2(stat: 0, dur(s): 2.61):
-device path not found
-
-### compute-652-2(stat: 0, dur(s): 2.66):
-ID_MODEL=WDC_WD20NPVT-00Z2TT0
-
-### compute-641-11(stat: 0, dur(s): 2.67):
-ID_MODEL=INTEL_SSDSC2BW240A4
-
-### compute-641-8(stat: 0, dur(s): 2.67):
-ID_MODEL=INTEL_SSDSC2BW240A3F
-
-### compute-641-17(stat: 0, dur(s): 2.7):
-ID_MODEL=INTEL_SSDSC2BW240A4
-
-### compute-431-1(stat: 0, dur(s): 2.72):
-ID_MODEL=MB0500EBNCR
-
-### compute-641-16(stat: 0, dur(s): 2.74):
-ID_MODEL=INTEL_SSDSC2BW240A3F
-
-### compute-641-6(stat: 0, dur(s): 2.74):
-ID_MODEL=INTEL_SSDSC2BW240A3F
-
-### compute-641-19(stat: 0, dur(s): 2.74):
-ID_MODEL=INTEL_SSDSC2BW240A4
-
-### compute-541-1(stat: 0, dur(s): 2.75):
+### compute-431-1(stat: -1, dur(s): 2.05):
+down
+### compute-641-18(stat: -1, dur(s): 2.04):
+down
+### compute-541-1(stat: 0, dur(s): 2.05):
 ID_MODEL=WDC_WD10EZRX-00A8LB0
 
-### compute-431-4(stat: -1, dur(s): 2.1):
-down
-### compute-431-3(stat: 0, dur(s): 3.51):
+### compute-641-11(stat: 0, dur(s): 2.15):
+ID_MODEL=INTEL_SSDSC2BW240A4
+
+### compute-641-15(stat: 0, dur(s): 2.15):
+ID_MODEL=INTEL_SSDSC2BW240A3F
+
+### compute-641-16(stat: 0, dur(s): 2.3):
+ID_MODEL=INTEL_SSDSC2BW240A3F
+
+### compute-641-5(stat: 0, dur(s): 2.34):
+ID_MODEL=INTEL_SSDSC2BW240A3F
+
+### compute-641-1(stat: 0, dur(s): 2.34):
+ID_MODEL=INTEL_SSDSC2BW240A4
+
+### compute-641-4(stat: 0, dur(s): 2.35):
+ID_MODEL=INTEL_SSDSC2BW240A4
+
+### compute-101-50(stat: 0, dur(s): 2.39):
+ID_MODEL=ST3120827AS
+
+### compute-431-2(stat: 0, dur(s): 2.35):
 ID_MODEL=MB0500EBNCR
 
-### compute-431-2(stat: 0, dur(s): 10.97):
-Remote command timed out on host compute-431-2
+### compute-641-3(stat: 0, dur(s): 2.48):
+ID_MODEL=INTEL_SSDSC2BW240A4
+
+### compute-652-2(stat: 0, dur(s): 2.47):
+ID_MODEL=WDC_WD20NPVT-00Z2TT0
+
+### compute-662-4(stat: 0, dur(s): 2.53):
+ID_MODEL=INTEL_SSDSC2BW120A4
+
+### compute-641-10(stat: 0, dur(s): 2.56):
+ID_MODEL=INTEL_SSDSC2BW240A4
+
+### compute-662-2(stat: 0, dur(s): 2.62):
+ID_MODEL=INTEL_SSDSC2BW120A4
+
+### compute-431-3(stat: 0, dur(s): 2.28):
+ID_MODEL=MB0500EBNCR
+
+### compute-662-3(stat: 0, dur(s): 2.63):
+ID_MODEL=INTEL_SSDSC2BW120A4
+
+### compute-662-1(stat: 0, dur(s): 2.7):
+ID_MODEL=INTEL_SSDSC2BW120A4
+
+### compute-432-2(stat: 0, dur(s): 2.78):
+ID_MODEL=MM0500EBKAE
+
+### compute-641-17(stat: 0, dur(s): 2.79):
+ID_MODEL=INTEL_SSDSC2BW240A4
+
+### compute-641-7(stat: 0, dur(s): 2.81):
+ID_MODEL=INTEL_SSDSC2BW240A3F
+
+### compute-641-13(stat: 0, dur(s): 2.82):
+ID_MODEL=INTEL_SSDSC2BW240A3F
+
+### compute-641-9(stat: 0, dur(s): 2.87):
+ID_MODEL=INTEL_SSDSC2BW240A4
+
+### compute-652-1(stat: 0, dur(s): 2.92):
+ID_MODEL=WDC_WD20NPVT-00Z2TT0
+
+### compute-662-6(stat: 0, dur(s): 2.92):
+ID_MODEL=INTEL_SSDSC2BW120A4
+
+### compute-431-5(stat: 0, dur(s): 2.92):
+ID_MODEL=SAMSUNG_HD502HI
+
+### compute-431-4(stat: 0, dur(s): 2.9):
+ID_MODEL=MB0500EBNCR
+
+### compute-541-2(stat: 0, dur(s): 2.96):
+device path not found
+
+### compute-641-2(stat: 0, dur(s): 2.96):
+ID_MODEL=INTEL_SSDSC2BW240A4
+
+### compute-641-12(stat: 0, dur(s): 2.96):
+ID_MODEL=INTEL_SSDSC2BW240A4
+
