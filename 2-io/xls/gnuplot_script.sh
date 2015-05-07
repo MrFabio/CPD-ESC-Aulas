@@ -2,6 +2,8 @@
 for dir in */; do
 	cd dir
 	gnuplot < "
+	set term png
+	set output '$dir.png'
 	set logscale x 2
 	set logscale y 2
 	set autoscale z
