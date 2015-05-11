@@ -1,0 +1,29 @@
+Diagnostic Output: 
+================== 
+ 
+*** WARNING: In open_processing. unit = 3 has been used before 
+    Number of columns in Offset array is = 1 
+    It should be zero 
+*** WARNING: In open_processing. unit = 3 has been used before 
+    Number of columns in Offset array is = 2 
+    It should be zero 
+*** WARNING: In open_processing. unit = 3 has been used before 
+    Number of columns in Offset array is = 2 
+    It should be zero 
+*** WARNING: In open_processing. unit = 3 has been used before 
+    Number of columns in Offset array is = 2 
+    It should be zero 
+*** WARNING: In open_processing. unit = 3 has been used before 
+    Number of columns in Offset array is = 4 
+    It should be zero 
+      Cannot undefine Open_Filename[3] 
+          Could be a socket? 
+          Line number: 234 
+          Length of Open_Filename array = 4 
+*** WARNING: In open_processing. unit = 3 has been used before 
+    Number of columns in Offset array is = 1 
+    It should be zero 
+      Cannot undefine Open_Filename[3] 
+          Could be a socket? 
+          Line number: 367 
+          Length of Open_Filename array = 4 
