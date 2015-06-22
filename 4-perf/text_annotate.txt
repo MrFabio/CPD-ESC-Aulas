@@ -1,0 +1,102 @@
+ Percent |	Source code & Disassembly of naive for cycles
+-------------------------------------------------------------
+         :
+         :
+         :
+         :	Disassembly of section .text:
+         :
+         :	00000000004007e0 <multiply_matrices()>:
+    0.00 :	  4007e0:       xorps  %xmm2,%xmm2
+    0.00 :	  4007e3:       mov    $0x7e9780,%r8d
+    0.00 :	  4007e9:       mov    $0x601300,%r9d
+    0.00 :	  4007ef:       mov    %r9,%rdi
+    0.00 :	  4007f2:       mov    $0x6f5540,%esi
+    0.00 :	  4007f7:       nopw   0x0(%rax,%rax,1)
+    0.00 :	  400800:       xorps  %xmm1,%xmm1
+    0.00 :	  400803:       lea    0xf4240(%rsi),%rcx
+    0.00 :	  40080a:       mov    %r8,%rdx
+    0.00 :	  40080d:       mov    %rsi,%rax
+   18.32 :	  400810:       movss  (%rdx),%xmm0
+    2.67 :	  400814:       add    $0x7d0,%rax
+    0.00 :	  40081a:       shufps $0x0,%xmm0,%xmm0
+    0.00 :	  40081e:       add    $0x4,%rdx
+   22.52 :	  400822:       mulps  -0x7d0(%rax),%xmm0
+   27.48 :	  400829:       cmp    %rcx,%rax
+    0.00 :	  40082c:       addps  %xmm0,%xmm1
+   26.72 :	  40082f:       jne    400810 <multiply_matrices()+0x30>
+    0.00 :	  400831:       addps  %xmm2,%xmm1
+    0.76 :	  400834:       add    $0x10,%rsi
+    0.00 :	  400838:       add    $0x10,%rdi
+    0.00 :	  40083c:       movaps %xmm1,-0x10(%rdi)
+    1.53 :	  400840:       cmp    $0x6f5d10,%rsi
+    0.00 :	  400847:       jne    400800 <multiply_matrices()+0x20>
+    0.00 :	  400849:       add    $0x7d0,%r8
+    0.00 :	  400850:       add    $0x7d0,%r9
+    0.00 :	  400857:       cmp    $0x8dd9c0,%r8
+    0.00 :	  40085e:       jne    4007ef <multiply_matrices()+0xf>
+    0.00 :	  400860:       repz retq 
+ Percent |	Source code & Disassembly of libc-2.12.so for cycles
+--------------------------------------------------------------------
+         :
+         :
+ Percent |	Source code & Disassembly of naive for cycles
+-------------------------------------------------------------
+         :
+         :
+         :
+         :	Disassembly of section .text:
+         :
+         :	0000000000400760 <initialize_matrices()>:
+    0.00 :	  400760:       push   %rbp
+    0.00 :	  400761:       xor    %ebp,%ebp
+    0.00 :	  400763:       push   %rbx
+    0.00 :	  400764:       sub    $0x8,%rsp
+    0.00 :	  400768:       nopl   0x0(%rax,%rax,1)
+    0.00 :	  400770:       xor    %ebx,%ebx
+    0.00 :	  400772:       nopw   0x0(%rax,%rax,1)
+   37.50 :	  400778:       callq  400598 <rand@plt>
+    0.00 :	  40077d:       cvtsi2ss %eax,%xmm0
+    0.00 :	  400781:       mulss  0x437(%rip),%xmm0        # 400bc0 <_IO_stdin_used+0x138>
+   12.50 :	  400789:       movss  %xmm0,0x7e9780(%rbp,%rbx,1)
+   12.50 :	  400792:       callq  400598 <rand@plt>
+    0.00 :	  400797:       cvtsi2ss %eax,%xmm0
+    0.00 :	  40079b:       movl   $0x0,0x601300(%rbp,%rbx,1)
+    0.00 :	  4007a6:       mulss  0x412(%rip),%xmm0        # 400bc0 <_IO_stdin_used+0x138>
+   12.50 :	  4007ae:       movss  %xmm0,0x6f5540(%rbp,%rbx,1)
+   25.00 :	  4007b7:       add    $0x4,%rbx
+    0.00 :	  4007bb:       cmp    $0x7d0,%rbx
+    0.00 :	  4007c2:       jne    400778 <initialize_matrices()+0x18>
+    0.00 :	  4007c4:       add    $0x7d0,%rbp
+    0.00 :	  4007cb:       cmp    $0xf4240,%rbp
+    0.00 :	  4007d2:       jne    400770 <initialize_matrices()+0x10>
+    0.00 :	  4007d4:       add    $0x8,%rsp
+    0.00 :	  4007d8:       pop    %rbx
+    0.00 :	  4007d9:       pop    %rbp
+    0.00 :	  4007da:       retq   
+ Percent |	Source code & Disassembly of libc-2.12.so for cycles
+--------------------------------------------------------------------
+         :
+         :
+ Percent |	Source code & Disassembly of naive for cycles
+-------------------------------------------------------------
+         :
+         :
+         :
+         :	Disassembly of section .plt:
+         :
+         :	0000000000400598 <rand@plt>:
+  100.00 :	  400598:       jmpq   *0x200c8a(%rip)        # 601228 <_GLOBAL_OFFSET_TABLE_+0x38>
+    0.00 :	  40059e:       pushq  $0x4
+    0.00 :	  4005a3:       jmpq   400548 <_init+0x18>
+ Percent |	Source code & Disassembly of ld-2.12.so for cycles
+------------------------------------------------------------------
+         :
+         :
+ Percent |	Source code & Disassembly of ld-2.12.so for cycles
+------------------------------------------------------------------
+         :
+         :
+ Percent |	Source code & Disassembly of ld-2.12.so for cycles
+------------------------------------------------------------------
+         :
+         :
