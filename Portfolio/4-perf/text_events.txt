@@ -1,0 +1,20 @@
+
+ Performance counter stats for './naive':
+
+         67.028789      task-clock (msec)         #    0.504 CPUs utilized          
+                32      context-switches          #    0.477 K/sec                  
+                 1      cpu-migrations            #    0.015 K/sec                  
+               985      page-faults               #    0.015 M/sec                  
+         159479559      cycles                    #    2.379 GHz                     [25.82%]
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+         288905922      instructions              #    1.81  insns per cycle         [38.65%]
+          40842819      branches                  #  609.332 M/sec                   [39.47%]
+             84529      branch-misses             #    0.21% of all branches         [38.47%]
+          72942580      L1-dcache-loads           # 1088.228 M/sec                   [24.74%]
+          16387897      L1-dcache-load-misses     #   22.47% of all L1-dcache hits   [25.13%]
+          15397533      LLC-loads                 #  229.715 M/sec                   [26.15%]
+             18744      LLC-load-misses           #    0.12% of all LL-cache hits    [25.25%]
+
+       0.132907430 seconds time elapsed
+

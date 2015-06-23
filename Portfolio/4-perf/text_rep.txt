@@ -1,0 +1,33 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+# Samples: 313  of event 'cycles'
+# Event count (approx.): 190099749
+#
+# Overhead  Command      Shared Object                     Symbol
+# ........  .......  .................  .........................
+#
+    84.47%    naive  naive              [.] multiply_matrices()  
+     3.25%    naive  libc-2.12.so       [.] __random             
+     2.43%    naive  naive              [.] initialize_matrices()
+     1.19%    naive  [kernel.kallsyms]  [k] 0xffffffff8127d387   
+     1.12%    naive  [kernel.kallsyms]  [k] 0xffffffff81189f41   
+     0.88%    naive  ld-2.12.so         [.] open64               
+     0.79%    naive  ld-2.12.so         [.] strcmp               
+     0.72%    naive  libc-2.12.so       [.] __random_r           
+     0.68%    naive  [kernel.kallsyms]  [k] 0xffffffff8118c7e7   
+     0.55%    naive  naive              [.] rand@plt             
+     0.48%    naive  [kernel.kallsyms]  [k] 0xffffffff8104e431   
+     0.46%    naive  [kernel.kallsyms]  [k] 0xffffffff810a097d   
+     0.38%    naive  [kernel.kallsyms]  [k] 0xffffffff81184dd0   
+     0.35%    naive  [kernel.kallsyms]  [k] 0xffffffff8116bc74   
+     0.33%    naive  [kernel.kallsyms]  [k] 0xffffffff81062e5d   
+     0.32%    naive  [kernel.kallsyms]  [k] 0xffffffff812833f3   
+     0.32%    naive  [kernel.kallsyms]  [k] 0xffffffff8116d4e5   
+     0.32%    naive  ld-2.12.so         [.] _dl_fini             
+     0.31%    naive  [kernel.kallsyms]  [k] 0xffffffff8112b78a   
+     0.31%    naive  [kernel.kallsyms]  [k] 0xffffffff8110872a   
+     0.29%    naive  [kernel.kallsyms]  [k] 0xffffffff812834cc   
+     0.02%    naive  [kernel.kallsyms]  [k] 0xffffffff8103891a   
+     0.02%    naive  [kernel.kallsyms]  [k] 0xffffffff8103891c   
+
+

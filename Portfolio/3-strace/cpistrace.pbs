@@ -1,0 +1,12 @@
+##!/bin/bash
+#PBS -l walltime=06:33:00
+#PBS-j oe
+#PBS -N I-OZONEstr
+##PBB S -lnodes=4:ppn=2
+cat $PBS_NODEFILE
+cd ~/CPD-ESC-Aulas/3-strace/
+
+strace -T -ttt -o strace.out /opt/iozone/bin/iozone -R -i0 -i1 -i2 -i5 -g 1G
+
+
+

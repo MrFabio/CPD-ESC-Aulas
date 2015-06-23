@@ -1,0 +1,53 @@
+
+### compute-101-50(stat: 0, dur(s): 2.39):
+ID_MODEL=ST3120827AS
+
+
+### compute-431-3(stat: 0, dur(s): 2.35): =======================
+ID_MODEL=MB0500EBNCR
+
+### compute-431-5(stat: 0, dur(s): 2.92): =======================
+ID_MODEL=SAMSUNG_HD502HI
+
+### compute-431-6(stat: 0, dur(s): 1.98): =======================
+ID_MODEL=SAMSUNG_HD502HJ
+
+### compute-432-1(stat: 0, dur(s): 1.92): =======================
+ID_MODEL=MM0500EBKAE
+
+### compute-541-1(stat: 0, dur(s): 2.05): =======================
+ID_MODEL=WDC_WD10EZRX-00A8LB0
+
+### compute-641-8(stat: 0, dur(s): 1.92):  =======================
+ID_MODEL=INTEL_SSDSC2BW240A3F
+
+### compute-641-19(stat: 0, dur(s): 1.86):  =======================
+ID_MODEL=INTEL_SSDSC2BW240A4
+
+### compute-652-1(stat: 0, dur(s): 2.92): =======================
+ID_MODEL=WDC_WD20NPVT-00Z2TT0
+
+### compute-662-6(stat: 0, dur(s): 1.82): =======================
+ID_MODEL=INTEL_SSDSC2BW120A4
+
+
+-----------
+431-3
+431-5
+431-6
+432-1
+541-1
+641-8
+641-19
+652-1
+662-6
+
+MB0500EBNCR
+SAMSUNG_HD502HI
+SAMSUNG_HD502HJ
+MM0500EBKAE
+WDC_WD10EZRX-00A8LB0
+INTEL_SSDSC2BW240A3F
+INTEL_SSDSC2BW240A4
+WDC_WD20NPVT-00Z2TT0
+INTEL_SSDSC2BW120A4
